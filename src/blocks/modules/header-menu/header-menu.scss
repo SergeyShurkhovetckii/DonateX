@@ -1,0 +1,11 @@
+.menu {
+    display: none;
+    @include lg (
+        display,block
+    )
+
+}
+.menu-row {
+    display:flex;
+    justify-content:space-between;
+}

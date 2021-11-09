@@ -1,0 +1,10 @@
+.header-btn {
+    padding: 12px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.header-btn:hover {
+    background-color: $dark;
+    transition: .7s;
+}

@@ -1,0 +1,31 @@
+.header {
+    background: $gray;
+
+    &__col {
+        width: 100%;
+        @include lg (width, calc(100% / 12 * 4))
+    }
+
+    &__row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:center;
+        padding-top: calc(39px);
+        padding-bottom: calc(39px);
+        @include lg(flex-direction, row);
+    }
+    &__burger {
+        display:block;
+        @include lg (
+            display,none
+        )
+    }
+}
+.col-btn{
+    display: flex;
+    justify-content: start;
+    @include lg(
+        justify-content,flex-end
+    )
+}

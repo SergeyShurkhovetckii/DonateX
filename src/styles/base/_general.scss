@@ -1,4 +1,10 @@
-h1, h2, h3, h4, h5, h6, ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
     margin: 0;
     padding: 0;
 }
@@ -8,5 +14,41 @@ h1, h2, h3, h4, h5, h6, ul {
     @include sm(max-width, rem(510));
     @include md(max-width, rem(690));
     @include lg(max-width, rem(930));
-    @include xl(max-width, rem(1110));
+    @include xl(max-width, 76.875rem);
+}
+
+body {
+    font-family: 'Now';
+    font-size: 16px;
+    line-height: 20px;
+    color: #252525;
+    font-weight: 400;
+}
+
+// a 
+.menu-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: $dark;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+
+}
+
+li {
+    list-style: none;
+}
+
+// btn
+.btn--orange{
+    background: #FF5D24;
+    color:$white;
+    border-radius: 5px;
+    width: 126px;
 }
