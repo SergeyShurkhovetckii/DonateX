@@ -62,4 +62,8 @@ li {
 // Заголовки
 h2{
     font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    @include lg (font-size , 56px);
+    @include lg (line-height ,65px);
 }

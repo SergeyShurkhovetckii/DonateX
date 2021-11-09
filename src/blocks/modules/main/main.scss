@@ -1,25 +1,19 @@
 .block-1 {
     margin-top: calc(60px);
-    display: flex;
 }
 
 .change {
     &__row {
         display: flex;
         flex-direction: column;
-        text-align: center;
-        @include lg (flex-direction,row)
-
+        justify-content:space-between;
+        @include lg (flex-direction, row)
     }
 
     &__col {
-        width:100%;
+        
     }
-
-    &__title {
-        font-size: 24px;
-        @include lg (
-            font-size , 56px
-        )
-    }
+}
+.text{
+    width: calc(50% - 210px);
 }
