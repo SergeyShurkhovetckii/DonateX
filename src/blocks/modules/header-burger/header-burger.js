@@ -1,13 +1,9 @@
-modules.define('header-burger', ['i-bem-dom'], function(provide, bemDom) {
+document.addEventListener('DOMContentLoaded', function () {
+    let button = document.querySelector('[data-button]');
 
-provide(bemDom.declBlock(this.name, {
-    onSetMod: {
-        js: {
-            inited: function() {
-                
-            }
-        }
+    if (button) {
+        button.addEventListener('click', function() {
+            button.classList.toggle('change');
+        });
     }
-}));
-
 });

@@ -2,13 +2,11 @@
     background: $gray;
 
     &__col {
-        width: 100%;
         @include lg (width, calc(100% / 12 * 4))
     }
 
     &__row {
         display: flex;
-        flex-direction: column;
         justify-content: space-between;
         align-items:center;
         padding-top: calc(39px);
@@ -23,9 +21,12 @@
     }
 }
 .col-btn{
-    display: flex;
+    display: none;
     justify-content: start;
     @include lg(
-        justify-content,flex-end
-    )
+        justify-content,flex-end 
+    );
+    @include lg (
+        display, flex
+    );
 }
