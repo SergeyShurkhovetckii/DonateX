@@ -1,9 +1,14 @@
 @import "modules/header/header";
-//
+//Header модули
     @import "modules/header-logo/header-logo";
     @import "modules/header-menu/header-menu";
     @import "modules/header-btn/header-btn";
     @import "modules/header-burger/header-burger";
-// 
+
+
+// Мобильное меню 
 @import "modules/m-menu/m-menu";
+// Главная страница
+@import "modules/main/main";
+
 @import "modules/footer/footer";
