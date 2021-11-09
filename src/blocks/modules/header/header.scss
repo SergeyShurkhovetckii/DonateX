@@ -8,25 +8,30 @@
     &__row {
         display: flex;
         justify-content: space-between;
-        align-items:center;
+        align-items: center;
         padding-top: calc(39px);
         padding-bottom: calc(39px);
         @include lg(flex-direction, row);
     }
+
     &__burger {
-        display:block;
-        @include lg (
-            display,none
-        )
+        display: block;
+        @include lg (display, none)
     }
 }
-.col-btn{
+
+.col-btn {
     display: none;
     justify-content: start;
-    @include lg(
-        justify-content,flex-end 
-    );
-    @include lg (
-        display, flex
-    );
+    @include lg(justify-content, flex-end);
+    @include lg (display, flex);
+}
+
+.header--fixed {
+    position: fixed;
+    width: 100%;
+    transition: 0.8s;
+    -webkit-box-shadow: -4px 14px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -4px 14px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: -4px 14px 8px 0px rgba(34, 60, 80, 0.2);
 }
