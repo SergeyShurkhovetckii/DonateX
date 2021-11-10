@@ -2,3 +2,6 @@
     margin-top: calc(3.313rem);
     @include lg (width, calc(100% / 12 * 11));
 }
+.m-img img:hover{
+    opacity: 1;
+}

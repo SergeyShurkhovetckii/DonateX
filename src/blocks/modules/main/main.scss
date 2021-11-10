@@ -24,12 +24,29 @@
     @include lg (justify-content, end);
 
 }
-.main-image{
+
+.main-image {
     position: relative;
 }
-.main-card-1{
-    
+.main-cards{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:calc(3.75rem);
+    @include md(flex-direction,row);
+    @include lg(margin-top,0rem);
+}
+
+.main-card-1 {
     right: 0;
-    bottom: 100px;
-    @include lg (position,absolute);
+    bottom: 6.25rem;
+    margin-bottom:calc(3.75rem);
+    @include lg (position, absolute);
+    @include lg (margin-bottom,0rem);
+}
+
+.main-card-2 {
+    left: 7.688rem;
+    top: 33.438rem;
+    @include lg (position, absolute);
 }
