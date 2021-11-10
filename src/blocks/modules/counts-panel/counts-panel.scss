@@ -1,0 +1,33 @@
+.panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__col{
+        width:calc(33% - 88px);
+    }
+
+    &__number {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+        &--orange {
+            color: $orange;
+        }
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    &__border {
+        border: 1px solid #000000;
+        transform: rotate(180deg);
+        height: 49px;
+    }
+
+    &__volunteers {}
+
+    &__year {}
+}
