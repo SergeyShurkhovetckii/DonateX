@@ -29,6 +29,10 @@ body {
 img:hover{
     opacity: 0.7;
 }
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
 
 // a 
 .menu-link {
@@ -67,3 +71,51 @@ h2{
     @include lg (font-size , 56px);
     @include lg (line-height ,65px);
 }
+// Волонтеры 
+h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: $orange;
+}
+// Допольнительное 
+.span--orange{
+    color: $orange;
+}
+.text-bold{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color:$dark;
+}
+
+
+
+
+// Animatios
+// .text-shadow-drop-center {
+// 	-webkit-animation: text-shadow-drop-center 7s infinite both;
+// 	        animation: text-shadow-drop-center 7s infinite both;
+// }
+
+// /**
+//  * ----------------------------------------
+//  * @animation text-shadow-drop-center
+//  * ----------------------------------------
+//  */
+//  @-webkit-keyframes text-shadow-drop-center {
+//     0% {
+//       text-shadow: 0 0 0 rgba(255, 93, 36, 1);
+//     }
+//     100% {
+//       text-shadow: 0 0 18px rgba(255, 93, 36, 1);
+//     }
+//   }
+//   @keyframes text-shadow-drop-center {
+//     0% {
+//       text-shadow: 0 0 0 rgba(255, 93, 36, 1));
+//     }
+//     100% {
+//       text-shadow: 0 0 18px rgba(255, 93, 36, 1);
+//     }
+//   }

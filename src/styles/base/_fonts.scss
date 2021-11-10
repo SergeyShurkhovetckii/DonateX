@@ -2,7 +2,15 @@
     font-family: 'Now';
     src: url('../../fonts/Now-Regular.woff2') format('woff2'),
 }
+// Средне жирный 
 @font-face {
-    font-family: 'Nexa';
-    src: url('../../fonts/Nexa-Trial-Bold.woff2') format('woff2'),
+    font-family: 'Now';
+    src: url('../../fonts/Now-Medium.woff2') format('woff2'),
+}
+// Жирный 
+@font-face {
+    font-family: 'Now';
+    font-weight : bold;
+    src: url('../../fonts/Now-Bold.woff2') format('woff2'),
+    
 }

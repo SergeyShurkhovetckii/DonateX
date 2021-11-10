@@ -1,19 +1,35 @@
 .block-1 {
-    margin-top: calc(60px);
+    margin-top: calc(3.75rem);
 }
 
 .change {
     &__row {
         display: flex;
         flex-direction: column;
-        justify-content:space-between;
-        @include lg (flex-direction, row)
+        justify-content: space-between;
+        @include lg (flex-direction, row);
+
     }
 
     &__col {
-        
+        display: flex;
+        justify-content: center;
     }
 }
-.text{
-    width: calc(50% - 210px);
+
+.text {
+    display: flex;
+    justify-content: center;
+    @include lg (width, calc(100% - 13.125rem));
+    @include lg (justify-content, end);
+
+}
+.main-image{
+    position: relative;
+}
+.main-card-1{
+    
+    right: 0;
+    bottom: 100px;
+    @include lg (position,absolute);
 }

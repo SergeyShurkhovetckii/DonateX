@@ -8,7 +8,13 @@
 
 // Мобильное меню 
 @import "modules/m-menu/m-menu";
+
 // Главная страница
 @import "modules/main/main";
+    // Модули
+    @import "modules/main-image/main-image";
+    @import "modules/card/card";
+
+
 
 @import "modules/footer/footer";

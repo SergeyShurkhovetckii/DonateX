@@ -1,0 +1,4 @@
+.m-img {
+    margin-top: calc(3.313rem);
+    @include lg (width, calc(100% / 12 * 11));
+}
