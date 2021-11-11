@@ -1,15 +1,15 @@
-.btn-lear{
+.btn-lear {
     background: $orange;
     font-weight: 400;
-    color:$white;
-    padding:14px 30px; 
+    color: $white;
+    padding: 14px 30px;
     display: flex;
     justify-content: center;
-    @include lg (width,7.5rem);
-}
-.btn-lear:hover{
-    background: $dark;
-    transition:$normal;
-    box-shadow: inset 0 0 0 10px $gray;
+    @include lg (width, 7.5rem);
 }
 
+.btn-lear:hover {
+    background: $dark;
+    transition: $normal;
+    box-shadow: inset 0 0 0 10px $gray;
+}

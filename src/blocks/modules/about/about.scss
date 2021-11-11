@@ -2,7 +2,8 @@
     &__col {
         width: 100%;
         margin-bottom: 3.75rem;
-        @include md(width, calc(50% - 50px));
+        @include md (width,50%);
+        @include lg(width, calc(50% - 50px));
     }
 
     &__row {
@@ -10,6 +11,13 @@
         align-items: center;
         flex-direction: column;
         justify-content: space-between;
+        text-align: center;
         @include md (flex-direction,row);
+        @include lg (text-align,start);
     }
+}
+.block-3{
+    margin-top: calc(3.75rem);
+    @include lg (margin-top, calc(6.875rem));
+    
 }
