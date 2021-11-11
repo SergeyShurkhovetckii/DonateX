@@ -1,0 +1,10 @@
+.count-svg {
+    cursor: pointer;
+    fill: $orange;
+}
+
+.count-svg:hover {
+    fill: $dark;
+    transition: .6s;
+}
+

@@ -43,6 +43,9 @@ img:hover{
     color: $dark;
     text-decoration: none;
 }
+a{
+    text-decoration: none;
+}
 
 a:hover {
     opacity: 0.7;
@@ -70,6 +73,12 @@ h2{
     @include lg (font-size , 56px);
     @include lg (line-height ,65px);
 }
+h3{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    color: $dark;
+}
 // Волонтеры 
 h4{
     font-weight: 700;
@@ -87,36 +96,4 @@ h4{
     line-height: 22px;
     color:$dark;
 }
-
-
-
-
-// Animatios
-// .text-shadow-drop-center {
-// 	-webkit-animation: text-shadow-drop-center 7s infinite both;
-// 	        animation: text-shadow-drop-center 7s infinite both;
-// }
-
-// /**
-//  * ----------------------------------------
-//  * @animation text-shadow-drop-center
-//  * ----------------------------------------
-//  */
-//  @-webkit-keyframes text-shadow-drop-center {
-//     0% {
-//       text-shadow: 0 0 0 rgba(255, 93, 36, 1);
-//     }
-//     100% {
-//       text-shadow: 0 0 18px rgba(255, 93, 36, 1);
-//     }
-//   }
-//   @keyframes text-shadow-drop-center {
-//     0% {
-//       text-shadow: 0 0 0 rgba(255, 93, 36, 1));
-//     }
-//     100% {
-//       text-shadow: 0 0 18px rgba(255, 93, 36, 1);
-//     }
-//   }
-
 

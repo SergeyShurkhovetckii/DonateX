@@ -7,13 +7,18 @@
     }
 
     &__number {
+        cursor: pointer;
         font-weight: 700;
         font-size: 50px;
         line-height: 50px;
         &--orange {
-            color: $orange;
-        }
+            // color: $orange;
+        }   
     }
+    &__number:hover{
+        color: $orange;
+        transition:$normal;
+    } 
 
     &__text {
         font-weight: 400;

@@ -3,9 +3,37 @@
     cursor: pointer;
     display: flex;
     justify-content: center;
+    // Обязательно для кнопки анимация
+    position: relative; 
+    overflow-x: hidden; 
 }
+
 .header-btn:hover {
     background-color: $dark;
     transition: .7s;
     border-radius: 10px;
+}
+
+// Анимация кнопки
+.header-btn .flare {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 30%;
+    transform: skewX(-45deg); // Наклон
+    animation: flareAnimation;
+    left: -150%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+    animation: flareAnimation 2s infinite linear;
+}
+
+@keyframes flareAnimation {
+    0% {
+        left: -150%;
+    }
+
+    100% {
+        left: 150%;
+
+    }
 }

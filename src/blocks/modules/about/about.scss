@@ -1,0 +1,15 @@
+.about {
+    &__col {
+        width: 100%;
+        margin-bottom: 3.75rem;
+        @include md(width, calc(50% - 50px));
+    }
+
+    &__row {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        @include md (flex-direction,row);
+    }
+}
