@@ -9,8 +9,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-top: calc(39px);
-        padding-bottom: calc(39px);
+        padding-top: calc(2.4375rem);
+        padding-bottom: calc(2.4375rem);
         @include lg(flex-direction, row);
     }
 

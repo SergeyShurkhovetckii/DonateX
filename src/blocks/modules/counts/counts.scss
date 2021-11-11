@@ -12,8 +12,11 @@
     }
 }
 .count-panel {
-    padding-top:calc(2.813rem);
-    padding-bottom: calc(5.188rem);
+    padding-top:calc(2.8125rem/ 2);
+    padding-bottom:calc(2.8125rem/ 2);
+    @include lg (padding-top,calc(2.813rem));
+    @include lg (padding-bottom,calc(5.188rem));
+    
 }
 .count-vector {
 
