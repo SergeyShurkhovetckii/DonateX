@@ -6,15 +6,24 @@
 }
 
 .block-4 {
+    display:none;
+    @include md (display, block);
     margin-top: (calc(7.5rem / 2));
     @include lg(margin-top, calc(7.5rem));
+
+}
+
+.slider-container {
+    margin-top: calc(4.625rem);
 }
 
 .slider-title {
     width: 100%;
     text-align: center;
+    margin-bottom: calc(2.5rem);
     @include lg (text-align, left);
     @include lg (width, 50%);
+    @include lg (margin-bottom, 0rem);
 }
 
 .slider-row {
@@ -27,29 +36,28 @@
 .slider-pagination {
     display: flex;
     justify-content: center;
-    @include lg (justify-content,flex-end);
+    @include lg (justify-content, flex-end);
     // width: 100%;
     // @include lg (width,calc(50% - 245px));
 }
+
 .pagination {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 23.125rem;
-    
+
 
     &__next {
-        fill:$gray;
-        stroke:$gray;
         cursor: pointer;
-    }
-    &__next:hover{
-        fill: $dark;
     }
 
     &__prew {
-        cursor: pointer; 
+        cursor: pointer;
     }
 
     &__text {}
+}
+.slider-pagination-icon:hover{
+    opacity:0.5;
 }

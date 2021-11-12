@@ -12,20 +12,17 @@
                 <!-- Пагинация -->
                 <div class="slider-pagination">
                     <div class="pagination">
-                        <div class="pagination__prew"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M15.5 19L8.5 12L15.5 5" stroke="#B9B9B9" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
+                        <div class="pagination__prew"><svg class="slider-pagination-icon" width="10" height="16" fill="none" viewBox="0 0 10 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.5 15L1.5 8L8.5 1" stroke="#B9B9B9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </div>
                         <div class="pagination__text">
                             <p>See More Service</p>
                         </div>
-                        <div class="pagination__next"><svg width="24" height="24" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8.5 5L15.5 12L8.5 19" stroke="#B9B9B9" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
+                        <div class="pagination__next"><svg class="slider-pagination-icon" width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.5 1L8.5 8L1.5 15" stroke="#B9B9B9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
+                            
                         </div>
                     </div>
                 </div>
@@ -35,19 +32,25 @@
                 <!-- Swiper -->
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">Slide 1</div>
-                        <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
-                        <div class="swiper-slide">Slide 4</div>
-                        <div class="swiper-slide">Slide 5</div>
-                        <div class="swiper-slide">Slide 6</div>
-                        <div class="swiper-slide">Slide 7</div>
-                        <div class="swiper-slide">Slide 8</div>
-                        <div class="swiper-slide">Slide 9</div>
+                        <div class="swiper-slide">
+                            @@include("../slider-card/slider-card.html")
+                        </div>
+                        <div class="swiper-slide">
+                            @@include("../slider-card/slider-card.html")
+                        </div>
+                        <div class="swiper-slide">
+                            @@include("../slider-card/slider-card.html")
+                        </div>
+                        <div class="swiper-slide">
+                            @@include("../slider-card/slider-card.html")
+                        </div>
+                        <div class="swiper-slide">
+                            @@include("../slider-card/slider-card.html")
+                        </div>
+                        <div class="swiper-slide">
+                            @@include("../slider-card/slider-card.html")
+                        </div>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>

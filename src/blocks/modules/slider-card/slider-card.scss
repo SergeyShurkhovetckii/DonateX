@@ -1,0 +1,45 @@
+.card-content {
+    padding: 50px 50px 50px 40px;
+}
+
+.card {
+    &__col {}
+
+    &__row {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.card-btn::after {
+    content: "\2192";
+    margin-left: 0.5rem;
+}
+
+.card-btn:hover {
+    color: $orange;
+    opacity: 0.8;
+}
+
+.card-btn a {
+    color: $dark;
+}
+
+.col-icon {
+    margin-bottom: 2.375rem;
+}
+
+.col-title {
+    margin-bottom: 1.875rem;
+}
+
+.col-text {
+    margin-bottom: 2.5rem;
+}
+
+
+.slider-card {
+    background: $white;
+    box-shadow: 21px -2px 77px rgba(165, 165, 165, 0.13);
+    border-radius: 20px;
+}
