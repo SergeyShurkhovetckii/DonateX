@@ -71,7 +71,17 @@ li {
     border: 0.3px solid #D2D2D2;
     box-sizing: border-box;
     border-radius: 5px;
-    width:90px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:9px;
+    width:7.5rem;
+}
+.news-card-btn:hover{
+    transition:$normal;
+    background:$orange;
+    color:$white;
+    border: 0.3px solid $orange;
 }
 
 // Заголовки
