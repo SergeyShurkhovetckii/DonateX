@@ -11,7 +11,8 @@
 
     &__row {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         @include md (flex-direction, row);
     }
 }
+

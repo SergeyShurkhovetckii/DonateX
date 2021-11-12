@@ -74,10 +74,12 @@ h2{
     @include lg (font-size , 56px);
     @include lg (line-height ,65px);
 }
-h3{
+h3{ 
+    font-size: 24px;
+    @include lg (font-size , 50px);
     font-weight: 700;
-    font-size: 50px;
-    line-height: 50px;
+    line-height: 25px;
+    @include lg (line-height ,50px);
     color: $dark;
 }
 // Волонтеры 

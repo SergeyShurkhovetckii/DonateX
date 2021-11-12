@@ -5,14 +5,6 @@
     @include lg (justify-content, left);
 }
 
-.block-4 {
-    display:none;
-    @include md (display, block);
-    margin-top: (calc(7.5rem / 2));
-    @include lg(margin-top, calc(7.5rem));
-
-}
-
 .slider-container {
     margin-top: calc(4.625rem);
 }
@@ -58,9 +50,11 @@
 
     &__text {}
 }
-.slider-pagination-icon{
-    fill:#B9B9B9;
+
+.slider-pagination-icon {
+    fill: #B9B9B9;
 }
-.slider-pagination-icon:hover{
+
+.slider-pagination-icon:hover {
     fill: $orange;
 }

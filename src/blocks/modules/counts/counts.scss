@@ -8,8 +8,6 @@
         @include lg (justify-content,space-between);
         @include lg (width,calc(100% - 7.688rem));
     }
-    &__col {
-    }
 }
 .count-panel {
     padding-top:calc(2.8125rem/ 2);

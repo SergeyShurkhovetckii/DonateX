@@ -16,8 +16,4 @@
         @include lg (text-align,start);
     }
 }
-.block-3{
-    margin-top: calc(3.75rem);
-    @include lg (margin-top, calc(6.875rem));
-    
-}
+

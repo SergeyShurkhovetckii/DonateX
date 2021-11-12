@@ -2,15 +2,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     &__col{
-        width:calc(33% - 88px);
+        width: 100%;
+        @include lg ( width,calc(33% - 88px));
+        
     }
 
     &__number {
         cursor: pointer;
         font-weight: 700;
-        font-size: 50px;
-        line-height: 50px;
+        font-size: 25px;
+        line-height: 25px;
+        @include md(font-size,50px);
+        @include md(line-height,50px);
         &--orange {
             // color: $orange;
         }   
@@ -27,6 +32,8 @@
     }
 
     &__border {
+        display:none;
+        @include lg (display,block);
         border: 1px solid #000000;
         transform: rotate(180deg);
         height: 49px;
