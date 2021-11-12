@@ -1,0 +1,22 @@
+.news {
+    &__row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__baige {
+        margin-bottom: 2.5rem;
+    }
+
+    &__title {}
+}
+
+.news-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.625rem;
+    &__card {
+
+    }
+}

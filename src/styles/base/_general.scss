@@ -66,6 +66,14 @@ li {
     width: 126px;
 }
 
+.news-card-btn{
+    cursor: pointer;
+    border: 0.3px solid #D2D2D2;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width:90px;
+}
+
 // Заголовки
 h2{
     font-weight: 700;
@@ -90,10 +98,17 @@ h4{
     color: $orange;
 }
 h5{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 24px;
     line-height: 24px;
 }
+h6{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: $dark;
+    }
+
 // Допольнительное 
 .span--orange{
     color: $orange;
@@ -104,4 +119,3 @@ h5{
     line-height: 22px;
     color:$dark;
 }
-
