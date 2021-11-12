@@ -1,5 +1,6 @@
 .header {
     background: $gray;
+    transition:$low;
 
     &__col {
         @include lg (width, calc(100% / 12 * 4))
@@ -31,7 +32,6 @@
     position: fixed;
     top:0;
     width: 100%;
-    transition: 0.8s;
     z-index: 99;
     -webkit-box-shadow: -4px 14px 8px 0px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: -4px 14px 8px 0px rgba(34, 60, 80, 0.2);

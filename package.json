@@ -71,7 +71,8 @@
         "yargs": "^15.4.1"
     },
     "dependencies": {
-        "smart-grid": "^2.1.2"
+        "smart-grid": "^2.1.2",
+        "swiper": "^5.4.5"
     },
     "lint-staged": {
         "!(_*).scss": [

@@ -15,7 +15,7 @@ ul {
     @include md(max-width, rem(690));
     @include lg(max-width, rem(930));
     @include xl(max-width, 76.875rem);
-    transition: .9s;
+    transition:$low;
 }
 
 body {

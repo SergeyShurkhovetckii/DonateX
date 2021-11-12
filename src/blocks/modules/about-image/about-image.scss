@@ -5,7 +5,8 @@
 }
 
 .about-font {
-    background: $gray;
+    @include lg(background, $gray);
+
 }
 
 .about-wrapper {

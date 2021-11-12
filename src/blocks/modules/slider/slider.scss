@@ -1,0 +1,55 @@
+.slider-baige {
+    display: flex;
+    justify-content: center;
+    margin-bottom: calc(2.5rem);
+    @include lg (justify-content, left);
+}
+
+.block-4 {
+    margin-top: (calc(7.5rem / 2));
+    @include lg(margin-top, calc(7.5rem));
+}
+
+.slider-title {
+    width: 100%;
+    text-align: center;
+    @include lg (text-align, left);
+    @include lg (width, 50%);
+}
+
+.slider-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    @include lg (flex-direction, row);
+}
+
+.slider-pagination {
+    display: flex;
+    justify-content: center;
+    @include lg (justify-content,flex-end);
+    // width: 100%;
+    // @include lg (width,calc(50% - 245px));
+}
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 23.125rem;
+    
+
+    &__next {
+        fill:$gray;
+        stroke:$gray;
+        cursor: pointer;
+    }
+    &__next:hover{
+        fill: $dark;
+    }
+
+    &__prew {
+        cursor: pointer; 
+    }
+
+    &__text {}
+}
