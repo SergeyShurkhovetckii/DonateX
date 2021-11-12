@@ -58,6 +58,9 @@
 
     &__text {}
 }
+.slider-pagination-icon{
+    fill:#B9B9B9;
+}
 .slider-pagination-icon:hover{
-    opacity:0.5;
+    fill: $orange;
 }

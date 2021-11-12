@@ -1,7 +1,7 @@
  // import Swiper JS
 import Swiper from 'swiper';
 
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".slider-card", {
     slidesPerView: 3,
     spaceBetween: 60,
     slidesPerGroup: 3,
