@@ -7,9 +7,6 @@ var swiper = new Swiper(".slider-card", {
     slidesPerGroup: 3,
     loop: true,
     loopFillGroupWithBlank: true,
-    pagination: {
-      clickable: true,
-    },
     navigation: {
       nextEl: ".pagination__next",
       prevEl: ".pagination__prew",
