@@ -36,6 +36,7 @@
 }
 
 .main-card-1 {
+    position: relative;
     margin-bottom: calc(3.75rem);
     @include lg (position, absolute);
     @include lg (margin-bottom, 0rem);
@@ -44,8 +45,10 @@
 }
 
 .main-card-2 {
+    position: relative;
     margin-bottom:calc(3.75rem);
     @include lg (position, absolute);
-    @include lg (left, 7.688rem);
+    @include lg (left,3.313rem);
     @include lg (top, 33.438rem);
 }
+
