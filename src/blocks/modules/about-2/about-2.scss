@@ -1,18 +1,18 @@
 .about-2 {
     &__col {
+        @include md (width,50%);
+        @include md (text-align,left);
         display: flex;
         align-items: center;
         margin-bottom: 3.5rem;
         text-align: center;
         width: 100%;
-        @include md (width,50%);
-        @include md (text-align,left);
     }
 
     &__row {
+        @include md (flex-direction, row);
         display: flex;
         flex-direction: column-reverse;
-        @include md (flex-direction, row);
     }
 }
 

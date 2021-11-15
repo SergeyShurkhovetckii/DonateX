@@ -16,13 +16,13 @@
 
     &__icon {
         position: relative;
+        bottom: 2.063rem;
+        width: 65px;
+        height: 65px;
         cursor: pointer;
         background: rgba(86, 185, 180, 0.84);
         backdrop-filter: blur(4px);
-        height: 65px;
-        width: 65px;
         border-radius: 30px;
-        bottom: 2.063rem;
     }
 
     &__icon:hover {

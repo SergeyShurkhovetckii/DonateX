@@ -1,39 +1,40 @@
 .header {
     background: $gray;
-    transition:$low;
+    transition: $low;
 
     &__col {
-        @include lg (width, calc(100% / 12 * 4))
+        @include lg (width, calc(100% / 12 * 4));
     }
 
     &__row {
+        @include lg(flex-direction, row);
         display: flex;
-        justify-content: space-between;
         align-items: center;
+        justify-content: space-between;
         padding-top: calc(2.4375rem);
         padding-bottom: calc(2.4375rem);
-        @include lg(flex-direction, row);
     }
 
     &__burger {
-        display: block;
         @include lg (display, none)
+    ;
+        display: block;
     }
 }
 
 .col-btn {
-    display: none;
-    justify-content: start;
     @include lg(justify-content, flex-end);
     @include lg (display, flex);
+    display: none;
+    justify-content: start;
 }
 
 .header--fixed {
     position: fixed;
-    top:0;
-    width: 100%;
     z-index: 99;
-    -webkit-box-shadow: -4px 14px 8px 0px rgba(34, 60, 80, 0.2);
-    -moz-box-shadow: -4px 14px 8px 0px rgba(34, 60, 80, 0.2);
-    box-shadow: -4px 14px 8px 0px rgba(34, 60, 80, 0.2);
+    top: 0;
+    width: 100%;
+    -webkit-box-shadow: -4px 14px 8px 0 rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -4px 14px 8px 0 rgba(34, 60, 80, 0.2);
+    box-shadow: -4px 14px 8px 0 rgba(34, 60, 80, 0.2);
 }

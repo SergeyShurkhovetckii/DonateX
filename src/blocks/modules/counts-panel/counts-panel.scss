@@ -1,29 +1,28 @@
 .panel {
+    @include lg (align-items,center);
     display: flex;
     justify-content: space-between;
-    @include lg (align-items,center);
     text-align: center;
-    &__col{
-        width: 100%;
+    &__col {
         @include lg ( width,calc(33% - 88px));
-        
+        width: 100%;
     }
 
     &__number {
+        @include md(font-size,50px);
+        @include md(line-height,50px);
         cursor: pointer;
         font-weight: 700;
         font-size: 25px;
         line-height: 25px;
-        @include md(font-size,50px);
-        @include md(line-height,50px);
         &--orange {
             // color: $orange;
-        }   
+        }
     }
-    &__number:hover{
+    &__number:hover {
         color: $orange;
-        transition:$normal;
-    } 
+        transition: $normal;
+    }
 
     &__text {
         font-weight: 400;
@@ -32,11 +31,11 @@
     }
 
     &__border {
-        display:none;
         @include lg (display,block);
+        display: none;
+        height: 49px;
         border: 1px solid #000000;
         transform: rotate(180deg);
-        height: 49px;
     }
 
     &__volunteers {}

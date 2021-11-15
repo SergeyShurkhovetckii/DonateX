@@ -1,11 +1,11 @@
 .btn-lear {
+    @include lg (width, 7.5rem);
+    display: flex;
+    justify-content: center;
+    padding: 14px 30px;
     background: $orange;
     font-weight: 400;
     color: $white;
-    padding: 14px 30px;
-    display: flex;
-    justify-content: center;
-    @include lg (width, 7.5rem);
 }
 
 .btn-lear:hover {

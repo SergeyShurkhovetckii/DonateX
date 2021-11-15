@@ -1,8 +1,8 @@
 .slider-baige {
+    @include lg (justify-content, left);
     display: flex;
     justify-content: center;
     margin-bottom: calc(2.5rem);
-    @include lg (justify-content, left);
 }
 
 .slider-container {
@@ -10,33 +10,33 @@
 }
 
 .slider-title {
+    @include lg (text-align, left);
+    @include lg (width, 50%);
+    @include lg (margin-bottom, 0);
     width: 100%;
     text-align: center;
     margin-bottom: calc(2.5rem);
-    @include lg (text-align, left);
-    @include lg (width, 50%);
-    @include lg (margin-bottom, 0rem);
 }
 
 .slider-row {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
     @include lg (flex-direction, row);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .slider-pagination {
+    @include lg (justify-content, flex-end);
     display: flex;
     justify-content: center;
-    @include lg (justify-content, flex-end);
     // width: 100%;
     // @include lg (width,calc(50% - 245px));
 }
 
 .pagination {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     width: 23.125rem;
 
 
@@ -52,7 +52,7 @@
 }
 
 .slider-pagination-icon {
-    fill: #B9B9B9;
+    fill: #b9b9b9;
 }
 
 .slider-pagination-icon:hover {

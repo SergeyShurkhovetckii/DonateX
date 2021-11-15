@@ -1,10 +1,10 @@
 .m-menu {
+    display: none;
     position: fixed;
-    background: $dark;
+    z-index: 999;
     width: 100%;
     height: 100%;
-    display: none;
-    z-index: 999;
+    background: $dark;
 
     &__link a {
         color: $white;
@@ -13,8 +13,8 @@
     }
 
     &__link :hover {
-        border-bottom: 1px solid $orange;
         transition: 0.6s;
+        border-bottom: 1px solid $orange;
     }
 
     &__item {
@@ -36,6 +36,5 @@
 
     &--active {
         display: block;
-
     }
 }

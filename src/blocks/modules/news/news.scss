@@ -13,11 +13,11 @@
 }
 
 .news-content {
+    @include md (flex-direction, row);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 4.625rem;
-    @include md (flex-direction, row);
     &__card {
         margin-bottom: 2.5rem;
     }

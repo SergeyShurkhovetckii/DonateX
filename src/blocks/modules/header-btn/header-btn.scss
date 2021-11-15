@@ -1,11 +1,11 @@
 .header-btn {
-    padding: 12px 20px;
-    cursor: pointer;
     display: flex;
     justify-content: center;
     // Обязательно для кнопки анимация
-    position: relative; 
-    overflow-x: hidden; 
+    position: relative;
+    padding: 12px 20px;
+    cursor: pointer;
+    overflow-x: hidden;
 }
 
 .header-btn:hover {
@@ -18,13 +18,12 @@
 .header-btn .flare {
     position: absolute;
     top: 0;
-    height: 100%;
-    width: 30%;
-    transform: skewX(-45deg); // Наклон
-    animation: flareAnimation;
     left: -150%;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+    width: 30%;
+    height: 100%;
+    transform: skewX(-45deg); // Наклон
     animation: flareAnimation 2s infinite linear;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
 }
 
 @keyframes flareAnimation {
@@ -34,6 +33,5 @@
 
     100% {
         left: 150%;
-
     }
 }

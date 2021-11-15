@@ -2,10 +2,10 @@
 @import "modules/loader/loader";
 @import "modules/header/header";
 //Header модули
-    @import "modules/header-logo/header-logo";
-    @import "modules/header-menu/header-menu";
-    @import "modules/header-btn/header-btn";
-    @import "modules/header-burger/header-burger";
+@import "modules/header-logo/header-logo";
+@import "modules/header-menu/header-menu";
+@import "modules/header-btn/header-btn";
+@import "modules/header-burger/header-burger";
 
 
 // Мобильное меню 
@@ -13,33 +13,33 @@
 
 // Главная страница
 @import "modules/main/main";
-    // Модули
-    @import "modules/main-image/main-image";
-    @import "modules/card/card";
+// Модули
+@import "modules/main-image/main-image";
+@import "modules/card/card";
 
 @import "modules/counts/counts";
-    // Модули
-    @import "modules/counts-vector/counts-vector";
-    @import "modules/counts-panel/counts-panel";
-    @import "modules/counts-arrow/counts-arrow";
+// Модули
+@import "modules/counts-vector/counts-vector";
+@import "modules/counts-panel/counts-panel";
+@import "modules/counts-arrow/counts-arrow";
 
 @import "modules/about/about";  
-    // Модули
-    @import "modules/about-image/about-image";
-        @import"modules/baige-about/baige-about";
-        @import"modules/btn-lear/btn-lear";
-    @import "modules/about-text/about-text";
+// Модули
+@import "modules/about-image/about-image";
+@import"modules/baige-about/baige-about";
+@import"modules/btn-lear/btn-lear";
+@import "modules/about-text/about-text";
 
 
 @import "modules/slider/slider";
-    @import "modules/baige-our/baige-our";
-    @import "modules/slider-card/slider-card";
+@import "modules/baige-our/baige-our";
+@import "modules/slider-card/slider-card";
 
 
 @import "modules/about-2/about-2";
 
 @import "modules/news/news";
-    @import "modules/news-card/news-card";
+@import "modules/news-card/news-card";
 
 @import "modules/video/video";
 

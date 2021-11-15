@@ -1,11 +1,10 @@
 
 .change {
     &__row {
+        @include lg (flex-direction, row);
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        @include lg (flex-direction, row);
-
     }
 
     &__col {
@@ -15,11 +14,10 @@
 }
 
 .text {
-    display: flex;
-    justify-content: center;
     @include lg (width, calc(100% - 13.125rem));
     @include lg (justify-content, end);
-
+    display: flex;
+    justify-content: center;
 }
 
 .main-image {
@@ -27,28 +25,28 @@
 }
 
 .main-cards {
+    @include md(flex-direction, row);
+    @include lg(margin-top, 0);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-top: calc(3.75rem);
-    @include md(flex-direction, row);
-    @include lg(margin-top, 0rem);
 }
 
 .main-card-1 {
-    position: relative;
-    margin-bottom: calc(3.75rem);
     @include lg (position, absolute);
-    @include lg (margin-bottom, 0rem);
+    @include lg (margin-bottom, 0);
     @include lg (bottom, 6.25rem);
     @include lg (right, 0);
+    position: relative;
+    margin-bottom: calc(3.75rem);
 }
 
 .main-card-2 {
-    position: relative;
-    margin-bottom:calc(3.75rem);
     @include lg (position, absolute);
     @include lg (left,3.313rem);
     @include lg (top, 33.438rem);
+    position: relative;
+    margin-bottom: calc(3.75rem);
 }
 

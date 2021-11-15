@@ -1,13 +1,12 @@
 .about-bg {
-    padding: 0.3125rem;
     @include lg(padding-left, 2.5rem);
     @include lg(padding-right, 2.5rem);
     @include lg(padding-bottom, 2.5rem);
+    padding: 0.3125rem;
 }
 
 .about-font {
     @include lg(background, $gray);
-
 }
 
 .about-wrapper {

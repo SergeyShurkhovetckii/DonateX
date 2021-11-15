@@ -1,19 +1,19 @@
 .about {
     &__col {
-        width: 100%;
-        margin-bottom: 3.75rem;
         @include md (width,50%);
         @include lg(width, calc(50% - 50px));
+        width: 100%;
+        margin-bottom: 3.75rem;
     }
 
     &__row {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: space-between;
-        text-align: center;
         @include md (flex-direction,row);
         @include lg (text-align,start);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
     }
 }
 

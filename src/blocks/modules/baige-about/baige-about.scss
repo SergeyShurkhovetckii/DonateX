@@ -1,9 +1,9 @@
 // Байдже
 .baidge-about {
-    background: $gray;
-    padding:9px 20px 9px 20px;
-    color: $orange;
-    display:flex;
-    justify-content: center;
     @include lg(width,7.125rem);
+    display: flex;
+    justify-content: center;
+    padding: 9px 20px 9px 20px;
+    background: $gray;
+    color: $orange;
 }
