@@ -10,7 +10,7 @@
 .block-4 {
     margin-top: calc(3.75rem);
     display: none;
-    @include md(display, block);
+    @include lg(display, block);
     @include lg(margin-top, calc(7.5rem));
 
 }
@@ -21,4 +21,10 @@
 
 .block-6 {
     margin-top: calc(3.75rem);
+}
+
+.block-7 {
+    margin-top: calc(3.75rem);
+    margin-bottom: calc(3.75rem);
+    @include md(margin-bottom, 22.5rem);
 }

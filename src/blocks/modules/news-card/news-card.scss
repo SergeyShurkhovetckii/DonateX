@@ -3,6 +3,8 @@
     border: 0.5px solid #D1D1D1;
     box-sizing: border-box;
     border-radius: 20px;
+    width:98%;
+    @include lg (width,100%);
 
     &__col {}
 
@@ -14,6 +16,11 @@
         display: flex;
         flex-direction: column;
     }
+}
+.news-card:hover{
+    border:none;
+    box-shadow: 0px 25px 77px rgba(165, 165, 165, 0.25);
+    transform: scale(1);
 }
 
 .news-card__tag {

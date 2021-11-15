@@ -1,3 +1,5 @@
+// Лоадер
+@import "modules/loader/loader";
 @import "modules/header/header";
 //Header модули
     @import "modules/header-logo/header-logo";
@@ -38,5 +40,7 @@
 
 @import "modules/news/news";
     @import "modules/news-card/news-card";
+
+@import "modules/video/video";
 
 @import "modules/footer/footer";

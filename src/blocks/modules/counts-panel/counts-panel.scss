@@ -1,7 +1,7 @@
 .panel {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    @include lg (align-items,center);
     text-align: center;
     &__col{
         width: 100%;
