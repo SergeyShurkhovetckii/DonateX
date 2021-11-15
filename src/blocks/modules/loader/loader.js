@@ -1,6 +1,7 @@
+// Объявляем константу
 const loader = document.querySelector(".loader");
-
-function fadeOutnojquery(el) {
+// Функция 
+function loaders(el) {
     el.style.opacity = 1;
     var interloader = setInterval(function () {
         el.style.opacity = el.style.opacity - 0.05;
@@ -12,7 +13,6 @@ function fadeOutnojquery(el) {
 }
 window.onload = function () {
     setTimeout(function () {
-        fadeOutnojquery(loader);
+        loaders(loader);
     }, 1000);
 };
-
