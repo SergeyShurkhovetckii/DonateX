@@ -11,3 +11,4 @@ import "%modules%/m-menu/m-menu";
 import "%modules%/slider/slider";
 
 import "%modules%/footer/footer"
+import "%modules%/btn-top/btn-top"
