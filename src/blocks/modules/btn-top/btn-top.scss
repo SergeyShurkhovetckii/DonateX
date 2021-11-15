@@ -16,7 +16,8 @@
 }
 
 .back-to-top:hover {
-    opacity:0.6;
+    opacity:0.9;
+    transition: $normal;
 }
 
 .back-to-top--open {
